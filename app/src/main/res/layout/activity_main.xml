@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="41dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background" />
+
+    <Button
+        android:id="@+id/menuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="293dp"
+        android:layout_marginTop="642dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="41dp"
+        android:background="@color/colorAccent"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="Menu"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        app:iconPadding="10dp"
+        app:iconTint="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/aboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="223dp"
+        android:layout_marginBottom="190dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="About The Taj                                 Established in 2020, The Taj is your gateway to exquisite Indian cuisine in Surat. We blend tradition with innovation to deliver an unforgettable dining experience. Our chefs craft dishes that capture the rich flavors of India, using only the finest ingredients. Quality, warm hospitality, and community involvement are our hallmarks. Join us for a memorable meal at The Taj and savor the essence of India.              The Taj - Where Flavor Meets Tradition  "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#DFD4BF"
+        android:textColorLink="#C3A383"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/thetaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="647dp"
+        android:fontFamily="cursive"
+        android:text="The TAJ"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
